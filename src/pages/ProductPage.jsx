@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { ChevronRight, Search, ShoppingCart } from 'lucide-react'
-import { products } from '../data/Products'
+import { products } from '../data/products'
 import ProductRating from '../components/ProductRating'
 import { useCart } from '../context/CartContext'
 
